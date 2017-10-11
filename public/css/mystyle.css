@@ -1,0 +1,405 @@
+/************************
+	サイトカラー：黄色　#f2cf01;
+
+	*************************/
+/*:::::::::::::::基本::::::::::::::::::::*/
+h1,h2,h3,h4,h5,h6 {font-weight: 600;}
+html {font-size: 62.5%;}
+body {font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro W3', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', Verdana, Arial, sans-serif;font-size: 10px; font-size: 1.0rem;text-align: justify;}/* =14px */
+* {font-size: 16px; font-size: 1.6rem;}
+h1 { font-size: 28px; font-size: 2.8rem; margin: 0 auto 20px;} /* =28px */
+h2 {font-size: 25px; font-size: 2.5rem; margin: 32px auto 20px;} /* =25px */
+h3 { font-size: 21px; font-size: 2.1rem; margin: 32px auto 20px;} /* =21px */
+h4 { font-size: 18px; font-size: 1.8rem; margin-top: 80px; line-height: 1.5;} /* =18px */
+h5 { font-size: 16px; font-size: 1.6rem;} /* =16px */
+h6 { font-size: 14px; font-size: 1.4rem;} /* =14px */
+
+p { font-size: 16px; font-size: 1.6rem; justify; margin: 1.6rem auto 1.6rem auto; line-height: 1.8;} /* =14px */
+label {font-size: 16px; font-size: 1.6rem; justify; line-height: 1.8;}
+li, td {font-size: 14px; font-size: 1.4rem;}
+th {font-size: 16px; font-size: 1.6rem;}
+ul, ol { margin: 0 0 1.5em 0em;}
+a {color: #5b5b5b; text-decoration: underline;}
+a:visited {color: #5b5b5b;}
+a:hover {color: #f2cf01;}
+a:hover img {opacity: 0.6;}
+p a {color: #5b5b5b;}
+
+.site { width: 100%;margin: 0 auto;padding: 0; overflow-x: hidden;}
+
+.site-content {max-width: 980px; width: 100%; padding: 40px 20px; margin: 0 auto;}
+.mt40 {display: block; margin-top: 40px;}
+
+
+/********************
+	header
+*******************/
+.site-branding {background-color: #f2cf01;}
+.header-logo{max-width:980px; width: 100%; height: 121px;  margin: 0 auto;}
+p.site-description {position: relative; text-align: right;font-size: 12px;margin-top: 20px;}
+h1.site-title {position: relative; margin-top:20px;}
+p.site-description2 {position: relative;left: 0px; top:34px; text-align: right;}
+ul.member_link {margin: 8px 0; padding: 0;}
+ul.member_link li { list-style: none; float: right; height: 22px; padding-right: 0px;}
+
+/****ナビゲーションメニュー*****/
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+.main-navigation {clear: both;display: block; width: 100%;}
+
+/* Small menu. */
+.menu-toggle,
+.main-navigation.toggled ul {
+	display: block;
+}
+
+@media screen and (min-width: 37.5em) {
+	.menu-toggle {
+		display: none;
+	}
+	.main-navigation ul {
+		display: block;
+	}
+}
+
+.headermenu {width: 100%; background-color: #000;height: 45%}
+.nav {max-width: 980px; width: 100%; margin: 0 auto;}
+ul.nav-menu {position: relative;max-width:980px;width: 100%; margin: 0 auto; padding: 0;z-index: 9999;}
+ul.nav-menu li {display:inline-block; text-align:center;color: #fff; height: 45px; line-height: 45px; z-index: 9999;} /*width: 14.28%;*/
+	.letter3 {width: 10rem;}
+	.letter4 {width: 11rem;}
+	.letter5 {width: 12rem;}
+	.letter6 {width: 13rem;}
+	.letter7 {width: 14rem;}
+	.letter10 {width: 17rem;}
+ul.nav-menu li a {color: #fff ;z-index: 9999; font-weight: 500;display: block; width: 100%;height: 45px; white-space: nowrap; text-decoration: none;}
+ul.nav-menu li a:hover {color: #000;background-color: #f2cf01;display: block; width: 100%;}
+ul.nav-menu li.current-menu-item, ul.nav-menu li.current-menu-item a {color: #000;background-color: #f2cf01;}
+.fixed {
+    position: fixed;
+	width: 100%; margin: 0 auto; background-color: #f2cf01;
+    z-index: 10000;
+}
+
+/********************
+	Top Page
+********************/
+.campaign {border: 1px solid #004486; padding: 12px; height: 320px; margin-bottom: 24px;}
+.topinfo {height: 320px; text-align: right; margin-bottom: 24px;}
+
+/********************
+	フォーム
+********************/
+.comment__area {max-width: 742px; width: 100%; margin: 40px auto; padding:20px; border: 1px solid #c4c4c4; }
+.entry__form {max-width: 742px; width: 100%; margin: 40px auto; padding:20px; border-radius: 10px; }
+h2.step__midashi {max-width: 980px; width: 100%;background: url(//kuruma-kinokawa.jp/img/group_h1bg.png) left top no-repeat; margin-top: 40px; background-color: #251a1c; border-radius: 10px;margin-bottom: 20px; height: 60px;
+    padding-left: 74px;font-weight: 500;
+    font-size: 1.8rem;
+    color: #fff;
+    line-height: 60px;
+} /* =25px */
+h3.menu__midashi {background: url(//kuruma-kinokawa.jp/img/kogu_icon.png) center left no-repeat; height: 35px; line-height: 35px; padding-left: 40px; border-bottom: 1px solid #fbf0b2;}
+form select {height: 24px; font-size: 1.6rem; }
+.step {color: #007ab7;}
+#secondBox1, #secondBox2, #secondBox3 {display: none;}
+/* ContactForm7 */
+span .wpcf7-list-item {
+display : block ;
+}
+.txt__indnt {
+  padding-left: 1.6rem;
+  text-indent: -1.6rem;
+}
+.fa-circle-o {color: #f2cf01;}
+
+table.plan th, table.plan td {font-size: 16px; font-size: 1.6rem; padding: 8px;}
+table.plan tr {border-bottom: 1px dashed #4c4c4c;}
+table.plan {border-top: 1px dashed #4c4c4c;}
+
+table.plan th {width: 33%; vertical-align: top;}
+.note {background-color: #f2cf01; color: #000; padding:1px 6px 0;font-size: 13px; font-size: 1.3rem;line-height: 16px; height:16px; }
+.note2 {font-size: 13px; font-size: 1.3rem; }
+
+
+table.plan2 th, table.plan2 td {font-size: 16px; font-size: 1.6rem; padding: 8px;}
+table.plan2 {border-bottom: 1px dashed #4c4c4c;border-top: 1px dashed #4c4c4c;}
+
+.form-number {width: 150px;}
+
+.form-group {padding: 20px; border: 1px solid #c8c8c8;max-width: 980px; width: 100%; margin: 20px auto;border-radius: 10px;}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    border: 1px solid;
+    border-color: #ccc #ccc #bbb;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 1;
+    padding: .6em 1em .4em;
+		margin: 40px auto;
+}
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {background-color: #f2cf01;color: #000;}
+
+.comment__space {font-size: 1.3rem;}
+input[type=checkbox], input[type=radio] {font-size: 16px; font-size: 1.6rem;}
+.checkbox, .radio {font-size: 16px; font-size: 1.6rem;margin-left: 20px;
+    position: relative;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+/***********************
+	Calender
+***********************/
+table.cals { max-width: 980px; width: 100%;
+  margin: 15px auto;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+table.cals th {
+  background: #eee;
+}
+table.cals th, table.cals td {padding: 7px;text-align: center;}
+table.cals td { border: 1px solid #c4c4c4;}
+
+.youbi_0 {
+  color: red;
+}
+.youbi_6 {
+  color: blue;
+}
+.today {
+  font-weight: bold;
+}
+.gray {
+  color: #dedede;
+}
+
+.day-calendar th, .day-calendar td {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 0;
+    vertical-align: middle;
+    width: 50%;
+}
+.monthly-calendar caption {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.monthly-calendar th {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.content-form legend {
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 0 5px;
+}
+.content-form tbody {font-size: 1.6rem;}
+.content-form th, .content-form td {
+    font-size: 1.6rem;
+}
+
+.content-form label.field-item {
+   display: block; font-weight: 500;
+}
+.content-form input, .content-form textarea {
+    padding: 3px;
+    margin-bottom: 3px;
+    font-size: 1.6rem;
+}
+
+/*タブ*/
+
+.tab-content {margin-bottom: 24px;}
+.tab-content input[type="radio"] {
+  display: none;
+}
+
+.tab-content label {
+  display: block;
+  width: 300px;
+  margin-left: 16px;margin-bottom: 16px;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #838383;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.tab-content input#tab1 label {color: #f2cf01; background-color: #e1fae1;}
+.tab-content label #tab2 {color: #edad0b; background-color: #fcf1d3;}
+.tab-content input#tab3 label {color: #d90000; background-color: #f6d4db;}
+
+.tab-content label:hover,
+.tab-content input[type="radio"]:checked + label {
+  color: #FFF;
+  background-color: #f2cf01;
+}
+.tab-content input#tab1 label:hover,
+.tab-content input#tab1[type="radio"]:checked + label {
+  color: #FFF;
+  background-color: #f2cf01;
+}
+.tab-content input#tab2 label:hover,
+.tab-content input#tab2[type="radio"]:checked + label {
+  color: #FFF;
+  background-color: #edad0b;
+}
+.tab-content input#tab3 label:hover,
+.tab-content input#tab3[type="radio"]:checked + label {
+  color: #FFF;
+  background-color: #d90000;
+}
+.tab-content .tab-box {
+	clear: both;
+  width: 100%;
+  height: auto;
+  padding: 0px;
+}
+
+.tab-content > .tab-box > div {
+  display: none;
+}
+
+#tab1:checked ~ .tab-box > #tabView1 { padding:16px;
+  display: block; border: 2px solid #f2cf01;
+  border-radius: 5px 0px 5px 5px;
+  box-sizing: border-box;
+
+}
+
+#tab2:checked ~ .tab-box > #tabView2 { padding:16px;
+  display: block; border: 2px solid #edad0b;
+  border-radius: 5px 0px 5px 5px;
+  box-sizing: border-box;
+}
+
+#tab3:checked ~ .tab-box > #tabView3 { padding:16px;display: block; border: 2px solid #d90000;
+  border-radius: 5px 0px 5px 5px;
+  box-sizing: border-box;
+}
+
+
+
+/*STEP4の登録*/
+.hidden_box {
+    margin: 2em 0;/*前後の余白*/
+    padding: 0;
+}
+
+/*ボタン装飾*/
+.hidden_box label.button__label {
+border: 1px solid;
+    border-color: #ccc #ccc #bbb;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 1;
+    padding: .6em 1em .4em;
+    margin: 40px auto;}
+
+/*ボタンホバー時*/
+.hidden_box label.button__label:hover {
+    background: #efefef;
+}
+
+/*チェックは見えなくする*/
+.hidden_box input.label1__input {
+    display: none;
+}
+
+/*中身を非表示にしておく*/
+.hidden_box .hidden_show {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.hidden_box input.label1__input:checked + .hidden_show {
+    padding: 10px 0;
+    height: auto;
+    opacity: 1;
+}
+
+/*
+:valid {
+    color: green;
+}
+:invalid {
+    color: red;
+}
+/************************
+	Page
+*************************/
+.telno {font-size: 18px; font-size: 1.8rem; }
+
+table.contact {width: 80%; margin: 32px auto;}
+table.contact th {background-color: #fff7aa;}
+table.contact tr {border-bottom: 1px dashed #4c4c4c;}
+table.contact td, table.contact th {font-size: 14px; font-size: 1.4rem; padding: 10px;}
+
+/************************
+	レンタカーページPage
+*************************/
+
+.rental__step1 {width: 100%; margin: 40px auto; background-color:#f2cf01; padding:10px; }
+
+/**************************
+	Footer
+**************************/
+.site-footer {background-color: #c4c4c4; padding: 20px 0;}
+.footer__contents1 {max-width: 940px; width: 100%; margin: 0 auto; font-size: 14px;font-size: 1.4rem;}
+.footer__contents1 a {font-size: 1.3rem; line-height: 1.5;}
+.footer__contents {background-color: #f2cf01; width: 100%; margin: 0px auto; padding: 20px;}
+.footer__contents2 {max-width: 940px; width: 100%; margin: 0 auto; font-size: 14px;font-size: 1.4rem; text-align: center;}
+.footer__contents2 p {font-size: 1.3rem; line-height: 1.5; margin-top: 10px; margin-bottom: 0;}
+.footer__contents2 img {width: 80%;}
+.footer__contents3 {background-color: #fbf0b2; width: 100%; margin: 40px auto 0px; padding: 20px; text-align: center;}
+.footer__contents3 p {text-align: center; margin-bottom: 0;}
+.comments__ {width: 80%; margin-left: 0; font-size: 13px;font-size: 1.3rem; line-height: 1.8;}
+h4.menu__1 { height: 18px; font-size: 1.3rem; line-height: 1.5;margin-top: 0;}
+.site-info {text-align: center;}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+	/*toppage*/
+	.campaign {border: 1px solid #004486; padding: 8px; height: 162px;}
+	.topinfo {height: 320px; text-align: center; margin: 12px auto;}
+h2.step__midashi {background: url(../../../../../img/group_h1bg.png) left top no-repeat;margin-top: 0px; height: 60px;
+    padding-left: 74px;padding-top: 8px;
+    font-size: 1.4rem;
+    color: #fff;
+    line-height: 1.5;
+}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+	 }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+p.site-description {left: 30px;}
+p.site-description2 {left: 30px; top:34px; text-align: right;}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
