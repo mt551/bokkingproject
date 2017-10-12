@@ -1,15 +1,15 @@
 @charset "UTF-8";
 	html, body { height: 100%; height: 100vh;}
 	.top__site {background-color: #f2cf01;}
-	.top-header {max-width: 760px;width: 100%;text-align: center;margin: 0 auto; padding: 20px 0;}
+	.top-header {max-width: 760px;width: 100%;text-align: center;margin: 0 auto; padding: 20px 0 0;}
 	h1.top-title {max-width: 760px;width: 100%;text-align: center;}
 	h1.top-title a img {max-width: 760px;width: 90%;}
 	.top-description {text-align: center;max-width: 760px;width: 100%;}
-	.top__member_link {max-width: 760px;width: 100%; margin: 40px auto;}
+	.top__member_link {max-width: 760px;width: 100%; margin: 40px auto 0px;}
 	ul.top__member_link {padding: 0;}
 	.top__member_link li {list-style: none; text-align: center; padding: 0;margin: 0px auto 16px;}
 	.top__member_link li a img {width: 90%;}
-	.top__contents {max-width: 980px; width: 100%; margin: 40px auto;}
+	.top__contents {max-width: 980px; width: 100%; margin: 40px auto 0;}
 	.top__main {text-align: center;}
 	.top__button a img {margin: 8px auto;}
 	.top__button {text-align: center;margin: 40px auto;}

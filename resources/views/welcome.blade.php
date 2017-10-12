@@ -13,9 +13,7 @@
 			</p>
 					        <ul class="row top__member_link">
 					            <li class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
-					                <a href="//www.kuruma-kinokawa.jp/test/entry/">
-					                    <img src="image/head_button1L.png" alt="新規会員登録" width="auto">
-					                </a>
+					                <a href="{!! route('signup.get') !!}"><img src="image/head_button1L.png"></a>
 					            </li>
 					            <li class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
 					                <a href="//www.kuruma-kinokawa.jp/test/login/">

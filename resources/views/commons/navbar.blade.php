@@ -11,9 +11,7 @@
 						</p>
 					        <ul class="member_link">
 					            <li style="margin-left:10px;">
-					                <a href="">
-					                    <img src="image/head_button1.png" alt="新規会員登録">
-					                </a>
+					            	<a href="{!! route('signup.get') !!}"><img src="image/head_button1.png" alt="新規会員登録"></a>
 					            </li>
 					            <li>
 					                <a href="">
