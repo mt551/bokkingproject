@@ -12,14 +12,25 @@
 				お車の整備・相談・レンタル予約なら <br class="hidden-lg hidden-md hidden-sm"/>［和歌山県紀の川市］熊井自動車へ
 			</p>
 					        <ul class="row top__member_link">
+					        <!--ログインしているか-->
+					        @if (Auth::check())
+					            <li class="col-lg-2 col-md-2 col-xs-12 col-sm-12">
+					            	
+					            		ようこそ <br>{{ Auth::user()->name }} 様
+					            	
+					            </li>
+					            <li class="col-lg-5 col-md-5 col-xs-6 col-sm-6">
+					                <a href="#">マイページ</a>
+					           </li>
+					            <li class="col-lg-5 col-md-5 col-xs-6 col-sm-6">{!! link_to_route('logout.get', 'Logout') !!}</li>
+					      	@else
 					            <li class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
 					                <a href="{!! route('signup.get') !!}"><img src="image/head_button1L.png"></a>
 					            </li>
 					            <li class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
-					                <a href="//www.kuruma-kinokawa.jp/test/login/">
-					                    <img src="image/head_button1L_1.png" alt="ログイン" width="auto">
-					                </a>
+					                    <a href="{!! route('login.get') !!}"><img src="image/head_button1L_1.png" alt="ログイン" width="auto">
 					            </li>
+					       @endif
 					        </ul>
 	</header><!-- #masthead -->
 

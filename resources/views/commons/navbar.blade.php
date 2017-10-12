@@ -10,14 +10,23 @@
 							お車の整備・相談・レンタル予約なら［和歌山県紀の川市］熊井自動車へ
 						</p>
 					        <ul class="member_link">
+					        <!--ログインしているか-->
+					        @if (Auth::check())
+					            <li style="margin-left:10px;">
+					            	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+					            		ようこそ{{ Auth::user()->name }} 様<span class="caret"></span>
+					            	</a>
+					            </li>
+					            <li><a href="#">マイページ</a></li>
+					            <li>{!! link_to_route('logout.get', 'Logout') !!}</li>
+					      	@else
 					            <li style="margin-left:10px;">
 					            	<a href="{!! route('signup.get') !!}"><img src="image/head_button1.png" alt="新規会員登録"></a>
 					            </li>
 					            <li>
-					                <a href="">
-					                    <img src="image/head_button1_1.png" alt="ログイン">
-					                </a>
+					                	<a href="{!! route('login.get') !!}"><img src="image/head_button1_1.png" alt="ログイン"></a>
 					            </li>
+					       @endif
 					        </ul>
 
 					</div><!--/ヘッダー右側-->

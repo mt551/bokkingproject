@@ -15,6 +15,7 @@
 	.top__button {text-align: center;margin: 40px auto;}
 	.top__button2 a img {margin: 8px auto;}
 	.top__footer p{padding: 20px;text-align: center;}
+	.centering {text-align: center;}
 	/* Extra small devices (portrait phones, less than 576px) */
 	@media (max-width: 575px) {
 		.top__member_link {margin: 20px auto 0;}
