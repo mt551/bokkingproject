@@ -1,9 +1,9 @@
-@extends('layouts.app')
+@extends('layouts.apptop')
 
 @section('content')
   	<header id="masthead" class="top-header" role="banner">
 		<h1 class="top-title"><a href="//www.kuruma-kinokawa.jp/ku-pit/" rel="home">
-			<img src="common/image/kupito_logo_L.png" alt="熊井自動車クーピットロゴ"  />
+			<img src="image/kupito_logo_L.png" alt="熊井自動車クーピットロゴ"  />
 			</a>
 		</h1>
 
@@ -13,13 +13,13 @@
 			</p>
 					        <ul class="row top__member_link">
 					            <li class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
-					                <a href="//www.kuruma-kinokawa.jp/common/test/entry/">
-					                    <img src="common/image/head_button1L.png" alt="新規会員登録" width="auto">
+					                <a href="//www.kuruma-kinokawa.jp/test/entry/">
+					                    <img src="image/head_button1L.png" alt="新規会員登録" width="auto">
 					                </a>
 					            </li>
 					            <li class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
-					                <a href="//www.kuruma-kinokawa.jp/common/test/login/">
-					                    <img src="common/image/head_button1L_1.png" alt="ログイン" width="auto">
+					                <a href="//www.kuruma-kinokawa.jp/test/login/">
+					                    <img src="image/head_button1L_1.png" alt="ログイン" width="auto">
 					                </a>
 					            </li>
 					        </ul>
@@ -29,17 +29,27 @@
 		<article>
 			<div class="top__main row">
 				<div class="col-lg-4 col-md-4 col-md-4 col-sm-12 top__button">
-					<a href="//www.kuruma-kinokawa.jp/kupitcms/service/"><img src="common/image/top_button1.png" alt="整備予約" width="auto" height="auto" /></a>
+					<a href="//www.kuruma-kinokawa.jp/kupitcms/service/"><img src="image/top_button1.png" alt="整備予約" width="auto" height="auto" /></a>
 				</div>
 				<div class="col-lg-4 col-md-4 col-md-4 col-sm-12 top__button">
-					<a href="common/"><img src="common/image/top_button2.png" alt="商談予約" width="auto" height="auto" /></a>
+					<a href=""><img src="image/top_button2.png" alt="商談予約" width="auto" height="auto" /></a>
 				</div>
 				<div class="col-lg-4 col-md-4 col-md-4 col-sm-12 top__button">
-					<a href="common/"><img src="common/image/top_button3.png" alt="レンタカー予約" width="auto" height="auto" /></a>
+					<a href=""><img src="image/top_button3.png" alt="レンタカー予約" width="auto" height="auto" /></a>
 				</div>
 			</div>
 
-
+			<div class="top__main2 row">
+				<div class="col-lg-4 col-md-4 col-md-4 col-sm-12 top__button">
+					<a href=""><img src="image/top_button4.png" alt="整備予約" width="auto" height="auto" /></a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-md-4 col-sm-12 top__button">
+					<a href=""><img src="image/top_button5.png" alt="商談予約" width="auto" height="auto" /></a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-md-4 col-sm-12 top__button">
+					<a href=""><img src="image/top_button6.png" alt="レンタカー予約" width="auto" height="auto" /></a>
+				</div>
+			</div>
 		</article>
 	</div><!-- .top__contents -->
 
@@ -51,5 +61,6 @@
 
 		<p class="copyright">© 有限会社熊井自動車 all rights reserved.</p>
 	</footer>
+
 
 @endsection
