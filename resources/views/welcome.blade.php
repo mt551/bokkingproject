@@ -2,8 +2,8 @@
 
 @section('content')
   	<header id="masthead" class="top-header" role="banner">
-		<h1 class="top-title"><a href="//www.kuruma-kinokawa.jp/ku-pit/" rel="home">
-			<img src="image/kupito_logo_L.png" alt="熊井自動車クーピットロゴ"  />
+		<h1 class="top-title"><a href="/" rel="home">
+			<img src="{{ asset('/image/kupito_logo_L.png') }}" alt="熊井自動車クーピットロゴ"  />
 			</a>
 		</h1>
 
@@ -14,15 +14,15 @@
 					        <ul class="row top__member_link">
 					        <!--ログインしているか-->
 					        @if (Auth::check())
-					            <li class="col-lg-2 col-md-2 col-xs-12 col-sm-12">
-					            	
-					            		ようこそ <br>{{ Auth::user()->name }} 様
-					            	
+					            <li class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+					            	<p class="centering"></p>
+					            		ようこそ {{ Auth::user()->name }} 様
+					            	</p>
 					            </li>
-					            <li class="col-lg-5 col-md-5 col-xs-6 col-sm-6">
-					                <a href="#">マイページ</a>
+					            <li class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
+					                {!! link_to_route('users.show', 'マイページ') !!}
 					           </li>
-					            <li class="col-lg-5 col-md-5 col-xs-6 col-sm-6">{!! link_to_route('logout.get', 'Logout') !!}</li>
+					            <li class="col-lg-6 col-md-6 col-xs-6 col-sm-6">{!! link_to_route('logout.get', 'Logout') !!}</li>
 					      	@else
 					            <li class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
 					                <a href="{!! route('signup.get') !!}"><img src="image/head_button1L.png"></a>
